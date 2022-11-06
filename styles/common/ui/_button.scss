@@ -1,0 +1,26 @@
+.button {
+  background-color: $white;
+  text-transform: lowercase;
+  color: $brand-primary;
+  font-family: 'Roboto', sans-serif;
+  padding: 14px 28px;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid $brand-primary;
+  transition: background-color 0.2s linear, color 0.2s linear;
+
+  &:hover {
+    background-color: $brand-primary;
+    color: $white;
+  }
+
+  &-large {
+    padding: 24px 36px;
+    font-size: 20px;
+  }
+
+  &-inverted {
+    background-color: $brand-primary;
+    color: $gray-primary;
+  }
+}
