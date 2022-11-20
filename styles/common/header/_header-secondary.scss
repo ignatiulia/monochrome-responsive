@@ -1,0 +1,99 @@
+.header-secondary {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .header-logo {
+      text-transform: uppercase;
+      font-size: 18px;
+
+      h1 {
+        margin: 0;
+      }
+
+      @include media-breakpoint-up(lg) {
+        display: none;
+      }
+    }
+
+    .header-controls {
+      ul {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+
+        li {
+          font-size: 20px;
+        }
+      }
+
+      @include media-breakpoint-up(lg) {
+        display: none;
+      }
+    }
+  }
+
+  .header-secondary-inner {
+    display: none;
+
+    @include media-breakpoint-up(lg) {
+      display: flex;
+      background: $brand-primary url('/images/banner/banner.png') center center /
+        cover no-repeat;
+      height: 500px;
+      margin: 0 auto;
+      width: 100%;
+
+      .header-connect {
+        ul {
+          display: flex;
+          font-size: 20px;
+          text-transform: uppercase;
+          color: $white;
+          padding-left: 50px;
+          justify-content: center;
+
+          li {
+            padding-right: 20px;
+
+            &:hover {
+              color: $gray-primary;
+            }
+          }
+        }
+      }
+
+      .header-controls {
+        display: flex;
+        color: $brand-primary;
+        padding-right: 50px;
+        font-size: 20px;
+        justify-content: center;
+
+        li {
+          padding-left: 20px;
+        }
+
+        li:first-child {
+          font-size: 16px;
+          font-family: 'Roboto', sans-serif;
+
+          form {
+            border: 1px solid $brand-secondary;
+            padding: 4px 4px;
+
+            input,
+            button {
+              background: none;
+              border: none;
+              text-transform: lowercase;
+              color: $gray-secondary;
+              font-style: italic;
+            }
+          }
+        }
+      }
+    }
+  }
+}

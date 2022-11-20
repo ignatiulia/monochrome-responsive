@@ -1,0 +1,16 @@
+.banner-main {
+  background: $brand-primary url('/images/banner/banner-02.png') center center /
+    cover no-repeat;
+  height: 177px;
+  position: relative;
+
+  .button {
+    position: absolute;
+    top: 124px;
+    right: 12px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    display: none;
+  }
+}
