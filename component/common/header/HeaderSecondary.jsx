@@ -35,14 +35,14 @@ export default function HeaderSecondary() {
 
       <div className="header-secondary-inner">
         <section className="container">
-          <div class="header-connect mt-3">
+          <div className="header-connect mt-3">
             <ul>
               <li>
                 <a
                   href="https://www.youtube.com"
                   title="Monochrome Youtube Channel"
                 >
-                  <i class="fa-brands fa-youtube"></i>
+                  <i className="fa-brands fa-youtube"></i>
                 </a>
               </li>
 
@@ -51,13 +51,13 @@ export default function HeaderSecondary() {
                   href="https://www.facebook.com"
                   title="Monochrome on Facebook"
                 >
-                  <i class="fa-brands fa-facebook"></i>
+                  <i className="fa-brands fa-facebook"></i>
                 </a>
               </li>
 
               <li>
                 <a href="https://www.twitter.com" title="Monochrome on Twitter">
-                  <i class="fa-brands fa-twitter"></i>
+                  <i className="fa-brands fa-twitter"></i>
                 </a>
               </li>
 
@@ -66,7 +66,7 @@ export default function HeaderSecondary() {
                   href="https://www.instagram.com"
                   title="Monochrome on Instagram"
                 >
-                  <i class="fa-brands fa-instagram"></i>
+                  <i className="fa-brands fa-instagram"></i>
                 </a>
               </li>
 
