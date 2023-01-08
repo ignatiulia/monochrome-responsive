@@ -28,7 +28,7 @@ export default function HeaderPrimary() {
       </div>
 
       <nav className="nav-primary">
-        <ul className="container">
+        <ul>
           <li>
             <Link href="/" name="New Arrivals">
               New Arrivals

@@ -1,4 +1,6 @@
+import Footer from '../component/common/footer/Footer.';
 import Header from '../component/common/header/Header';
+import HomepageMain from '../component/common/main/HomepageMain';
 
 export default function Home() {
   return (
@@ -7,9 +9,13 @@ export default function Home() {
         <Header></Header>
       </header>
 
-      <main className="content"></main>
+      <main className="content">
+        <HomepageMain></HomepageMain>
+      </main>
 
-      <footer className="footer"></footer>
+      <footer className="footer">
+        <Footer></Footer>
+      </footer>
     </div>
   );
 }
